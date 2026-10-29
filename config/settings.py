@@ -29,7 +29,13 @@ DEBUG = True
 ALLOWED_HOSTS = ['*'] # In production, you'd want to restrict this
 
 # Required for Django Admin logins behind a reverse proxy/HTTPS
-CSRF_TRUSTED_ORIGINS = ['https://insight.rathinamtechzone.com']
+CSRF_TRUSTED_ORIGINS = [
+    'https://insight.rathinamtechzone.com',
+    'https://www.rguedu.in',
+    'https://rguedu.in',
+    'http://187.127.189.231',
+    'https://187.127.189.231',
+]
 
 # Application definition
 
